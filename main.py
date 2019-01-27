@@ -1,11 +1,7 @@
-import json,csv
+import json
 from pprint import pprint
 import requests
 import re
-import pandas as pd
-with open('working.txt') as f:
-    data = json.load(f)
-
 
 access_token = ''
 
